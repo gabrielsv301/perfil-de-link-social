@@ -1,0 +1,53 @@
+body{
+    margin:15px;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.conteiner{
+    width: 370px;
+    height: 665px;
+    border-radius: 20px;
+    background: linear-gradient(to right,#2e2c2c,#3b3838);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    box-shadow: 8px 5px 10px #000000e1;
+}
+.foto img{
+    border-radius: 100%;
+    margin: 40px 128px 0 ; 
+    
+}
+.nome{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+.resumo{
+    margin:5px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #91ff00;
+}
+.Discocrafia{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    margin: 20px;
+}
+.redesSociais P{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: #524f4f;
+    border-radius: 12px;
+    padding: 14px;
+    margin: 15px;
+}
+.redesSociais p:hover{
+    background-color: #ffffff9c;
+    color: #000;
+    
+}

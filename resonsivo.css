@@ -1,0 +1,73 @@
+@media screen and (min-width: 360px) and (max-width:640px) {
+    .conteiner{
+        width: 350px;
+        height: 650px;
+    }
+    .foto img{
+        border-radius: 100%;
+        margin: 40px 118px 0 ; 
+        
+    }
+    .resumo{
+        margin: 3px;
+    }
+    .Discocrafia{
+        margin: 10px;
+    }
+}
+
+/* tablests */
+
+@media screen and (min-width:600px) and (max-width:960px) {
+    .conteiner{
+        width: 470px;
+        height: 635px;
+    }
+    .foto img{
+        border-radius: 100%;
+        margin: 40px 180px 0 ; 
+        
+    }
+    .nome{
+        font-size: 22px;
+    }
+}
+
+/* ipad pro */
+
+@media screen and (min-width:834px) and (max-width:1112px) {
+    .conteiner{
+        width: 550px;
+        height: 640px;
+    }
+    .foto img{
+        border-radius: 100%;
+        margin: 40px 220px 0 ; 
+        
+    }
+}
+
+/* min ped */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .conteiner{
+        height: 650px;
+    }
+}
+
+/* Medium Screen */
+
+@media screen and (min-width:1024px) and (max-width:800px) {
+    .conteiner{
+        height: 700px;
+    }
+}
+
+/* Macbook */
+
+@media screen and (min-width:1200px) and (max-width:800px) {
+    .conteiner{
+        width: 620px;
+        height: 690px;
+    }
+}
